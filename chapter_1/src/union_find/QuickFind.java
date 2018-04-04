@@ -8,6 +8,7 @@ public class QuickFind implements UF {
 
     public  QuickFind(int N){
         this.count = N;
+        id = new int[N];
         for(int i = 1; i <= N; i++){
             id[i] = i;
         }

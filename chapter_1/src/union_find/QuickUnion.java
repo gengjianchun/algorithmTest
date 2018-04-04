@@ -7,6 +7,7 @@ public class QuickUnion implements  UF {
 
     public  QuickUnion(int N){
         this.count = N;
+        id = new int[N];
         for(int i = 1; i <= count; i++){
             id[i] = i;
         }
